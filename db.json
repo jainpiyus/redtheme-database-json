@@ -19,86 +19,7 @@
       "default": false
     }
   ],
-	 "cart": [
-    {
-      "id": 1,
-      "name": "Veg Seekh Kebab",
-      "type": "veg",
-      "price": 150,
-      "containt": "Full",
-      "quantity": 1
-    },
-    {
-      "id": 2,
-      "name": "Paneer Tikka",
-      "type": "veg",
-      "price": 250,
-      "containt": "Full",
-      "quantity": 2
-    },
-    {
-      "id": 6,
-      "name": "Spicy Chicken Tondoori Leg",
-      "type": "nonveg",
-      "price": 250,
-      "containt": "Full",
-      "quantity": 5
-    },
-    {
-      "id": 3,
-      "name": "Angara Paneer Tikka",
-      "type": "veg",
-      "price": 150,
-      "containt": "Full",
-      "quantity": 2
-    },
-    {
-      "id": 5,
-      "name": "Tandoori Chicken",
-      "type": "nonveg",
-      "price": 150,
-      "containt": "Full",
-      "quantity": 1
-    },
-    {
-      "id": 10,
-      "name": "Aroma Special Mashroom Biryani",
-      "type": "veg",
-      "price": 250,
-      "containt": "Served With Raita and mirchi ka masala",
-      "quantity": 1
-    },
-    {
-      "id": 4,
-      "name": "Mashroom Tikka",
-      "type": "veg",
-      "price": 299,
-      "containt": "Full",
-      "quantity": 2
-    },
-    {
-      "id": 7,
-      "name": "Tangdi Kabeb",
-      "type": "nonveg",
-      "price": 150,
-      "quantity": 3
-    },
-    {
-      "id": 8,
-      "name": "Kamli Kebab",
-      "type": "nonveg",
-      "price": 299,
-      "quantity": 4
-    },
-    {
-      "id": 9,
-      "name": "Aroma Special Veg Biryani",
-      "type": "veg",
-      "price": 150,
-      "containt": "Served With Raita and mirchi ka masala",
-      "quantity": 1
-    }
-  ],
+	 "cart": [  ],
      "meals": [
     {
       "id": 1,
@@ -301,25 +222,6 @@
           "quantity": 1
         }
       ]
-    },
-    {
-      "id": 5,
-      "name": "Aroma's Hyderabad House",
-      "image": "https://d1ralsognjng37.cloudfront.net/21dee048-f651-41f6-9f24-a7fee046fbf2.jpeg",
-      "time": "10 Oct at 08:13 pm",
-      "totalPrice": 450,
-      "meals": [
-        {
-          "id": 1,
-          "name": "Veg Seekh Kebab",
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "name": "Paneer Tikka",
-          "quantity": 2
-        }
-      ]
     }
   ],
 	 "restaurants": [
@@ -422,28 +324,7 @@
             "rating": 4.1,
 			"timing": "20-40 min",
 			"ratingPoints": 3.9,
-        },
-        {
-            "id": 11,
-            "name": "LunchBox",
-            "address": "Hinjewadi, Hinjewadi",
-            "foodType": "North Indian, Chinese, Desserts, Biryani",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mvg8s04aefbxupesos8x",
-            "rating": 4.1,
-			"timing": "20-40 min",
-			"ratingPoints": 3.9,
-        },
-        {
-            "id": 12,
-            "name": "Tamanna Cafeteria",
-            "address": "Bhagwan Nagar, Wakad",
-            "foodType": "Street Food, South Indian, Fast Food",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/p6nyjevqkca8fpuarzgl",
-            "rating": 4.1,
-			"timing": "10-20 min",
-			"ratingPoints": 3.9,
-        }
-      
+        }      
     ]
 
 }
