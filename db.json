@@ -13,7 +13,32 @@
       "default": false
     }
   ],
-	 "cart": [],
+	 "cart": [
+    {
+      "id": 1,
+      "name": "Veg Seekh Kebab",
+      "type": "veg",
+      "price": 150,
+      "containt": "Full",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Paneer Tikka",
+      "type": "veg",
+      "price": 250,
+      "containt": "Full",
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "name": "Spicy Chicken Tondoori Leg",
+      "type": "nonveg",
+      "price": 250,
+      "containt": "Full",
+      "quantity": 5
+    }
+  ],
      "meals": [
     {
       "id": 1,
