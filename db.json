@@ -11,15 +11,9 @@
       "title": "Office",
       "address": "Marunji Rd, Marunji Village, Hinjawadi",
       "default": false
-    },
-    {
-      "icon": "home",
-      "title": "Home",
-      "address": "Marunji Rd, Marunji Village, Hinjawadi",
-      "default": false
     }
   ],
-	 "cart": [  ],
+	 "cart": [],
      "meals": [
     {
       "id": 1,
@@ -139,7 +133,7 @@
      "orders": [
     {
       "id": 1,
-      "image": "https://d1ralsognjng37.cloudfront.net/aec6e2d7-b107-46eb-b700-4138f07ff8fd.jpeg",
+      "image": "1.jpeg",
       "name": "A1 Biryani House",
       "time": "10 Oct at 08:13 pm",
       "totalPrice": 450,
@@ -153,7 +147,7 @@
     },
     {
       "id": 2,
-      "image": "https://d1ralsognjng37.cloudfront.net/21dee048-f651-41f6-9f24-a7fee046fbf2.jpeg",
+      "image": "3.jpeg",
       "name": "Hotal Platinum",
       "time": "20 Oct at 08:13 pm",
       "totalPrice": 550,
@@ -177,7 +171,7 @@
     },
     {
       "id": 3,
-      "image": "https://d1ralsognjng37.cloudfront.net/097d2aab-d99a-4859-a288-a54f7038983e.jpeg",
+      "image": "2.jpeg",
       "name": "A1 Biryani House",
       "time": "30 Oct at 08:13 pm",
       "totalPrice": 450,
@@ -198,133 +192,77 @@
           "quantity": 1
         }
       ]
-    },
-    {
-      "id": 4,
-      "image": "https://d1ralsognjng37.cloudfront.net/67a08fb1-1d62-4504-afab-e9459fcfdd86.jpeg",
-      "name": "Sentosa Multi Cusine Restaurant",
-      "time": "10 Oct at 08:13 pm",
-      "totalPrice": 450,
-      "meals": [
-        {
-          "id": 1,
-          "name": "Veg Seekh Kebab",
-          "quantity": 1
-        },
-        {
-          "id": 2,
-          "name": "Paneer Tikka",
-          "quantity": 1
-        },
-        {
-          "id": 3,
-          "name": "Veg Manchurian",
-          "quantity": 1
-        }
-      ]
     }
+   
   ],
 	 "restaurants": [
         {
             "id": 1,
             "name": "Tamanna Cafeteria",
-            "address": "Marunji, Hinjewadi",
             "foodType": "Street Food, South Indian, Fast Food",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/oyusdq7j4phsavmal7n0",
-            "rating": 4.1,
-			"timing": "40-50 min",
-			"ratingPoints": 3.9,
+            "image": "1.jpeg"
+    
         },
         {
             "id": 2,
             "name": "LunchBox",
-            "address": "Hinjewadi, Hinjewadi",
             "foodType": "North Indian, Chinese, Desserts, Biryani",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mvg8s04aefbxupesos8x",
-            "rating": 4.1,
-			"timing": "45-40 min",
-			"ratingPoints": 3.9,
+            "image": "2.jpeg"
         },
         {
             "id": 3,
             "name": "Tamanna Cafeteria",
-            "address": "Bhagwan Nagar, Wakad",
             "foodType": "Street Food, South Indian, Fast Food",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/p6nyjevqkca8fpuarzgl",
-            "rating": 4.1,
-			"timing": "35-40 min",
-			"ratingPoints": 3.9,
+            "image": "3.jpeg"
+    
         },
         {
             "id": 4,
             "name": "Hotel Sonam",
-            "address": "Bhujbal Wasti, Wakad, Wakad",
-            "foodType": "South Indian, Fast Food, North Indian",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/urrvwargoh0njy1etozf",
-            "rating": 4.5,
-			"timing": "25-40 min",
-			"ratingPoints": 3.9,
+			"foodType": "North Indian, Chinese, Desserts, Biryani",
+            "image": "4.jpeg"
+            
         },
         {
             "id": 5,
             "name": "Tamanna Cafeteria",
-            "address": "Marunji, Hinjewadi",
             "foodType": "Street Food, South Indian, Fast Food",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/oyusdq7j4phsavmal7n0",
-            "rating": 4.1,
-			"timing": "15-40 min",
-			"ratingPoints": 3.9,
+            "image": "5.jpeg"
+          
         },
         {
             "id": 6,
             "name": "LunchBox",
-            "address": "Hinjewadi, Hinjewadi",
             "foodType": "North Indian, Chinese, Desserts, Biryani",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/mvg8s04aefbxupesos8x",
-            "rating": 4.1,
-			"timing": "10-30 min",
-			"ratingPoints": 3.9,
+            "image": "6.jpeg"
+      
         },
         {
             "id": 7,
             "name": "Tamanna Cafeteria",
-            "address": "Bhagwan Nagar, Wakad",
             "foodType": "Street Food, South Indian, Fast Food",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/p6nyjevqkca8fpuarzgl",
-            "rating": 4.1,
-			"timing": "40-50 min",
-			"ratingPoints": 3.9,
+			 "image": "7.jpeg"
+            
         },
         {
             "id": 8,
             "name": "Hotel Sonam",
-            "address": "Bhujbal Wasti, Wakad, Wakad",
             "foodType": "South Indian, Fast Food, North Indian",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/urrvwargoh0njy1etozf",
-            "rating": 4.5,
-			"timing": "10-30 min",
-			"ratingPoints": 3.9,
+            "image": "8.jpeg"
+       
         },
         {
             "id": 9,
             "name": "Hotel Sonam",
-            "address": "Bhujbal Wasti, Wakad, Wakad",
             "foodType": "South Indian, Fast Food, North Indian",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/urrvwargoh0njy1etozf",
-            "rating": 4.5,
-			"timing": "30-20 min",
-			"ratingPoints": 3.9,
+            "image": "9.jpeg"
+         
         },
         {
             "id": 10,
             "name": "Tamanna Cafeteria",
-            "address": "Marunji, Hinjewadi",
             "foodType": "Street Food, South Indian, Fast Food",
-            "image": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/oyusdq7j4phsavmal7n0",
-            "rating": 4.1,
-			"timing": "20-40 min",
-			"ratingPoints": 3.9,
+            "image": "10.jpeg"
         }      
     ]
-
 }
